@@ -1,0 +1,76 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+     align-items:flex-start; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+  
+   .flex-item1 {
+    background-color: red;
+    text-align: center;
+    width: 1440px;
+    height: 100px;
+    margin: 5px 0;
+
+   }
+
+  .flex-item2 {
+    background-color: rgb(217, 116, 15);
+    width: 1440px;
+    text-align: center;
+    height: 300px;
+    margin: 5px 0;
+  }
+ 
+
+  .flex-item3 {
+    background-color: yellow;
+    width: 360px;
+    text-align: center;
+    height: 300px;
+    margin: 5px 0;
+  }
+  .flex-item4 {
+    background-color: yellow;
+    width: 360px;
+    margin: 5px 0;
+    text-align: center;
+    height: 300px;
+  }
+  .flex-item5 {
+    background-color: yellow;
+    width: 360px;
+    text-align: center;
+    height: 300px;
+    margin: 5px 0;
+  }
+  .flex-item6 {
+    background-color: yellow;
+    width: 360px;
+    text-align: center;
+    height: 300px;
+    margin: 5px 0;
+  }
+  .flex-item7 {
+    background-color: green;
+    width: 343px;
+    text-align: center;
+    height: 450px;
+    margin: 5px 0;
+  }
+  .flex-item8 {
+    background-color: blue;
+    width: 323px;
+    text-align: center;
+    height: 400px;margin: 5px 0;
+  }
+  .flex-item9 {
+    background-color: pink;
+    width: 730px;
+    text-align: center;
+    height: 600px;
+    margin: 5px 0;
+  }
+  
