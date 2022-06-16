@@ -1,0 +1,1 @@
+le tableau périodique des elements chimique est sensible au rétrécissement du browser. Le tableau rétrécit, les polices également 
