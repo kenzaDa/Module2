@@ -105,22 +105,6 @@ td{
 		margin-left: 97px;
 		margin-bottom: 
 		}
-
-		.photo{
-		margin-left: 28px;
-		border-radius: 50%;
-		width: 45px;
-		height: 45px;
-		}
-
-		.date{
-		font-size: 10px;
-		}
-
-		.place{
-			font-size: 10px;
-		}
-
 		
 
 }
@@ -155,13 +139,7 @@ td{
 	}
 
 
-	.date{
-	font-size: 8px;
-	}
-
-	.place{
-		font-size: 8px;
-	}
+	
 
 }
 
