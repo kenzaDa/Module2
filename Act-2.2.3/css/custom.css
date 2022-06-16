@@ -1,0 +1,253 @@
+*{margin: 0;}
+#who {
+    text-align: center;
+}
+#line {
+    border-bottom: solid #e74c3c;
+    width: 200px;
+}
+#logo {
+    align-self:flex-start;
+}
+#who-we-are {
+    font-size: 30px;
+    color: #e74c3c;
+    font-family: "Arvo", courier, serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.this {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: #222222;
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  /* ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style-type: none;
+    
+  } */
+  .navbar{
+
+    display:flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    background-color:rgb(34, 33, 33);
+
+    height:80px;
+
+    font-family: 'Arvo',courier,serif;
+
+    color: #ccc;
+
+}
+.navbar a {
+    text-decoration: none;
+    color: #999a97;
+    margin-right:5px ;
+   margin-left: 50px;
+   align-self: center;
+}
+
+button {
+    display: inline-block;
+    background-color: #e74c3c;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: #f7c2f9;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #home {
+	background-image: url("../images/hero-image.jpg");
+    text-align: center;
+	height: 650px;
+	color: rgb(252, 251, 251);
+}
+
+#home h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+#home p {
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 50px;
+}
+#home h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
+footer {
+    background-color: #f74c3c;
+    height: 150px;
+    margin-top: 200px;
+}
+
+.img-footer {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.get-involved-btn {
+    color: #e74c3c;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.user-icon {
+    background-color: black;
+    border-radius: 50%;
+
+    width: 60px;
+    height: 50px;
+    text-align: center;
+}
+.para {
+    text-align: center;
+    font-family: "Arvo", courier, serif;
+    font-size: 120%;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.red {
+    color: red;
+}
+#get-involved {
+    background-color: #f5f5f0;
+}
+
+
+  .up {
+    float:right;
+   }
+
+  
+
+/* Responsive design */
+
+
+
+
+
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) { 
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+	
+
+}
+
+@media (max-width: 767px) { 
+
+	#home h1 {
+		font-size: 24px;
+	}
+
+	#home p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	
+	.img-footer {
+		width: 80%;
+	}
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
