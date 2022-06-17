@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Locations saisonnières et locations en résidence -Airbnb </title>
+</head>
+<body>
+<!-- navbar -->
+    <nav>
+        <img src="./icones/Airbnb.jpg" alt="nav-logo" height="50px" width="100px">
+        <div class="search">
+            <strong> N'importe ou </strong>&ensp;|&ensp;
+            <strong> Une semaine</strong> &ensp;|&ensp;
+             Ajouter des voyageurs &ensp; 
+            <span class="search-icon"><i class="bi bi-search"></i></span>
+        </div>
+        <div class="nav-item3">
+            <span>Devener Hote</span>
+            <span id="globe-icon"><i class="bi bi-globe"></i></span>
+            <div class="connect">
+                <span><i class="bi bi-list"   style="font-size: 30px;"></i></span>
+                <span><i class="bi bi-person" style="font-size: 30px;"></i></span>
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="container">
+     <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <div class="col">
+        <div class="card">
+          <img src="..."  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card">
+          <img src="..."  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..."  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..."  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="container">
+    <div class="row"><br>
+       <div class="colonne">
+        <div class="card">
+          <img src="..."  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+       </div>
+       <div class="colonne">
+        <div class="card">
+          <img src="..."  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+       </div>
+
+       <div class="colonne">
+        <div class="card">
+          <img src="..."  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+       </div>
+
+       <div class="colonne">
+        <div class="card">
+          <img src="..."  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+       </div>
+
+       <div class="row">
+        <div class="colonne">
+         <div class="card">
+           <img src="..."  alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           </div>
+         </div>
+        </div>
+        <div class="colonne">
+         <div class="card">
+           <img src="..."  alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           </div>
+         </div>
+        </div>
+ 
+        <div class="colonne">
+         <div class="card">
+           <img src="..."  alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           </div>
+         </div>
+        </div>
+ 
+        <div class="colonne">
+         <div class="card">
+           <img src="..."  alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           </div>
+         </div>
+        </div>
+        <div class="row">
+          <div class="colonne">
+           <div class="card">
+             <img src="..."  alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+           </div>
+          </div>
+          <div class="colonne">
+           <div class="card">
+             <img src="..."  alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+           </div>
+          </div>
+   
+          <div class="colonne">
+           <div class="card">
+             <img src="..."  alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+           </div>
+          </div>
+   
+          <div class="colonne">
+           <div class="card">
+             <img src="..."  alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+           </div>
+          </div>
+          <div class="row">
+            <div class="colonne">
+             <div class="card">
+               <img src="..."  alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               </div>
+             </div>
+            </div>
+            <div class="colonne">
+             <div class="card">
+               <img src="..."  alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               </div>
+             </div>
+            </div>
+     
+           
+     
+            <div class="colonne">
+             <div class="card">
+               <img src="..."  alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               </div>
+             </div>
+            </div>
+          -->
+
+
+
+            <div class="container">
+              <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                  <div class="p-3 border bg-light">
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/02e76230_original.jpg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/02ebace7_original.jpg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/0b25f6b3-f215-4938-ac81-581eb3929047.jpg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/14ccf158-d09c-43ae-90ba-56edeb73273c.jpeg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/1b71f1bc-c393-449f-949a-d6906fbc64a2.jpeg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/1d798d07-2637-40a1-99ac-46a7ea056492.jpg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/35bb93e0-662d-4240-9fc8-ab78e60a9027.jpeg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/37d5f0ec-0ccc-4df3-846b-8d147c3960f4.jpeg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/4ab988e5-15d7-4222-a90a-8929c413e6d5.jpeg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/6ef8e934_original.jpg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="container">
+              <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/7d85f4fd-0dce-49ec-a376-46d40ef3689d.jpeg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/80a1e8cd_original.jpg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/832cfc80-d0c7-4736-8e7c-30b0340f67fd.jpg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/c64d7348-90be-4c90-af9a-7d2794702e23.jpeg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/cdaef12c-db7a-437f-96a9-55c0d2f253b9.jpeg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="./hosting/e24c13b9-dd2a-4e15-9845-dd588a884e39.jpg"  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <a aria-labelledby="title_48174475" class="ln2bl2p dir dir-ltr" href="/rooms/48174475?adults=1&amp;category_tag=Tag%3A7769&amp;children=0&amp;infants=0&amp;search_mode=flex_destinations_search&amp;check_in=2022-09-03&amp;check_out=2022-09-08&amp;previous_page_section_name=1000&amp;federated_search_id=664a9623-32e1-40c0-9a71-227f51f8cf1d" rel="noopener noreferrer nofollow" target="listing_48174475"></a>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="container">
+              <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border bg-light">
+
+
+                    <div class="colonne">
+                      <div class="card">
+                        <img src="..."  alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                     </div>
+
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+     
+    
+        
+       
+    </nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+</body>
+</html>
