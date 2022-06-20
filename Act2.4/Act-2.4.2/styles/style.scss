@@ -17,7 +17,7 @@ header{
         color: #000;
   }
   }
-  img{
+ .middle img{
 
     margin-left: -115px;
    }
@@ -124,6 +124,9 @@ border: 1px solid #DFDFDF;
  
 
 }
+.title{
+    margin-top: 300px;
+}
 
 .main{display:flex;
     flex-direction: column;
@@ -139,7 +142,7 @@ justify-content:center;
 .photo-cosmo {
   height: auto;
   width: 50%;
-  width: 50%;
+  width: 70%;
   margin:auto;
  
 }
@@ -147,15 +150,248 @@ justify-content:center;
     color: var(--color-content-quaternary,#727272);
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     margin: auto;
-    text-align: left;
+   
     display: block;
     max-width: 900px;
+    margin-left: 230px;
+    margin-bottom: 20px;
 }
-u1 {list-style: none;
+
+.bottom{
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+
+    a {
+color: #666;
+font-family: nyt-franklin,helvetica,arial,sans-serif;
+font-size: 3mm;
+padding: 20px 5px;
+-webkit-text-decoration: none;
+text-decoration: none;
+white-space: nowrap;
+    }
 }
-.css-ccw2r3 {
-    -webkit-flex-shrink: 1;
-    -ms-flex-negative: 1;
-    flex-shrink: 1;
-    padding-right: 1rem;
-    list-style: none; }
+
+
+.content{
+    width: 600px;
+    margin: auto;
+    img{
+        width: 600px;
+    }
+    h5{
+        margin:0;
+        font-size: 15px;
+        span{
+            text-decoration: underline;
+        }
+    }
+    h6{
+        margin: 0;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 20px;
+        text-align: justify;
+        a{
+            color:#326891;
+        }
+    }
+    hr{
+        width: 33%;
+    }
+    .thanks{
+        text-align: center;
+        font-size: 15px;
+        margin:15px 0px 15px 0px;
+
+        span{
+            font-weight: bolder;
+        }
+        a{
+            text-decoration: none;
+            color:rgb(50, 104, 145);
+            font-weight: bolder;
+        }
+    }
+    .caption{
+        text-align: start;
+        font-size: 15px;
+        color: #727272;
+    }
+}
+aside{
+    width: 945px;
+    margin: auto;
+    h1{
+        font-weight: 700;
+        margin: 0;
+    }
+    .p1{
+        margin: 0;
+        color:#666666;
+    }
+    div{
+        width: 945px;
+        height: 576px;
+        background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+        background-size:cover;
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        p{
+            width: 228px;
+            position: relative;
+            top:135px;
+            font-size: 14px;
+            text-align:left;
+        }
+    }
+    img{
+        width: 945px;
+    }
+}
+
+
+body{
+    margin: 30px;
+    padding: 200px;
+    .cards-body{
+        display: flex;
+    }
+    .card{
+        border: none;
+        margin: 15px;
+    }
+    .card-title {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: gray
+    }
+    .p{
+        color: gray 
+    }
+    hr{
+        color:black
+    }
+    a{
+        font-family: 'Times New Roman', Times, serif;
+        &:link { text-decoration: none; 
+        color: black;
+        &:hover{
+            opacity: 0.5;;
+        }}
+    }
+    a.titre{
+        :hover{
+            text-decoration:underline;
+        }
+    }
+    // img{
+    //     width:200;
+    //     height:150px;
+    // }
+    a.a{
+        font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    }
+}
+
+.css-kdur8l {
+    margin: 0px auto;
+    max-width: 1200px;
+    padding: 0px 3% 9px;
+    display:block;
+  }
+ 
+
+
+.css-r5ic95 {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+  .css-1onhbft {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    height: 25px;
+    line-height: 15px;
+    margin: 0px;
+    text-transform: uppercase;
+    width: 150px;
+  }
+  .css-jxzr5i {
+    max-width: 70%;
+    display: flex;
+    justify-content: space-around;
+    gap:70px;
+    }
+    .css-oylsik {
+        display: block;
+        height: 44px;
+        // vertical-align: middle;
+        width: 184px;}
+
+        .vertical {
+            display: flex;
+            flex-direction: row;
+            margin: 18px 0px 0px auto;
+          }
+          .css-1rr4qq7 {
+            flex: 1 1 0%;
+            display: block;
+          }
+          .css-6xhk3s {
+            border-left: 1px solid rgb(226, 226, 226);
+            flex: 1 1 0%;
+            padding-left: 15px;}
+
+            .css-1onhbft {
+                color: rgb(51, 51, 51);
+                font-size: 13px;
+                font-weight: 700;
+                font-family: nyt-franklin, helvetica, arial, sans-serif;
+                height: 25px;
+                line-height: 15px;
+                margin: 0px;
+                text-transform: uppercase;
+                width: 150px;}
+                .css-1rr4qq7 {
+                    flex: 1 1 0%;
+                      flex-grow: 1;
+                      flex-shrink: 1;
+                      flex-basis: 0%;}
+                      .css-184m8ie {
+                        color: rgb(86, 123, 149);
+                        font-family: nyt-franklin, helvetica, arial, sans-serif;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 11px;
+                        text-decoration: none;}
+                        .css-kdur8l {
+                            margin: 0px auto;
+                              margin-top: 0px;
+                              margin-right: auto;
+                              margin-bottom: 0px;
+                              margin-left: auto;
+                            max-width: 1200px;
+                            padding: 0px 3% 9px;
+                              padding-top: 0px;
+                              padding-right: 3%;
+                              padding-bottom: 9px;
+                              padding-left: 3%;}
+                      
