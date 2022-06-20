@@ -4,6 +4,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 10px 20px;
+  margin-top: -150px;
 }
 header .left {
   display: flex;
@@ -39,6 +40,7 @@ nav span {
 }
 
 .space {
+  margin-top: 5px;
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -141,27 +143,20 @@ nav span {
   margin-bottom: 20px;
 }
 
-.bottom {
-  border-top: 1px solid #ebebeb;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  max-width: 70%;
-  margin: auto;
-}
-.bottom a {
-  color: #666;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 3mm;
-  padding: 20px 5px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
 .content {
   width: 600px;
   margin: auto;
+}
+.content .final-p {
+  font-size: 12px;
+  color: #666666;
+}
+.content .final-p span {
+  text-decoration: underline;
+}
+.content .final-p span:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 .content img {
   width: 600px;
@@ -282,6 +277,26 @@ body a.a {
   line-height: 1.4375rem;
 }
 
+.bottom {
+  margin-top: 100px;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 70%;
+  margin: auto;
+  color: #666;
+}
+.bottom a {
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 3mm;
+  padding: 20px 5px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
 .css-kdur8l {
   margin: 0px auto;
   max-width: 1200px;
@@ -310,10 +325,10 @@ body a.a {
 }
 
 .css-jxzr5i {
-  max-width: 70%;
+  max-width: 90%;
   display: flex;
-  justify-content: space-around;
-  gap: 70px;
+  justify-content: space-between;
+  gap: 200px;
 }
 
 .css-oylsik {
@@ -380,4 +395,28 @@ body a.a {
   padding-right: 3%;
   padding-bottom: 9px;
   padding-left: 3%;
+}
+
+.test {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+hr .one {
+  margin-top: -10px;
+}
+
+.css-1iruc8t {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.css-uw59u {
+  margin-top: 200px;
 }/*# sourceMappingURL=style.css.map */
