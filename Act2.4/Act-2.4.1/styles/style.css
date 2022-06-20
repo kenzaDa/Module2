@@ -3,6 +3,7 @@ body {
   font-family: "Arimo", sans-serif;
   margin: 0;
   padding: 0;
+  height: 800px;
 }
 
 /* Partie header */
@@ -84,7 +85,7 @@ header .right .conn {
 }
 .main .buttons button {
   padding: 10px 20px;
-  background-color: #e0e0e0;
+  background-color: #f8f9fa;
   border: none;
   border-radius: 5px;
   margin-right: 10px;
@@ -97,4 +98,51 @@ header .right .conn {
   text-decoration: none;
 }
 
-/* Fin de la partie principale *//*# sourceMappingURL=style.css.map */
+/* Fin de la partie principale */
+footer {
+  font-family: arial;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.barre1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  margin-top: 222px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.barre2 {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  padding-right: 30px;
+  background-color: #f2f2f2;
+  gap: 150px;
+}
+.barre2 a {
+  color: #5c5c5c;
+}
+
+.pays {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.54);
+}/*# sourceMappingURL=style.css.map */
