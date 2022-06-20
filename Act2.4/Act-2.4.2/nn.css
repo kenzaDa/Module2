@@ -101,21 +101,27 @@ header{
   font-style: italic;
   font-size: 1.9375rem;
   line-height: 2.25rem;
-   margin: 90px 40px 20px; 
+  margin: auto;
+   /* margin: 90px 40px 20px;  */
    position: relative; 
   width: calc(100% - 40px);
   max-width: 600px;
-  margin-left : 380px;
+  /* margin-left : 380px; */
 
 }
 .bord hr {
-  margin-left: 350px;
+  margin:auto;
+  margin-top: 20px;
 }
 
 .tags{
   display: flex;
 flex-direction: row ;
-gap: 20pX;
+
+gap: 20px;
+margin :250px;
+margin-top: 20px;
+
 }
 .css-113xjf1 {
   position: relative;
@@ -175,8 +181,28 @@ font: inherit;
   background-color: #EBEBEB;
   border-color: #EBEBEB;
   opacity: 0.8;
+  color: #999;
 }
 .css-140h6xa a {
   text-decoration: none;
   color: #999;
+}
+.comment a :hover {
+  text-decoration: none;
+  color: rgb(13, 13, 13);
+}
+
+
+.cosmo {
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  margin-top:-200px;
+  
+}
+.css-rq4mmj {
+  height: auto;
+  width: 50%;
+  width: 50%;
+ 
 }

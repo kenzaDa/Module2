@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+body{
+  font-family: 'Arimo', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+/* Partie header */
+header{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  margin:10px 20px;
+  .left{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  p{
+    margin-right: 10px;
+    color: #787878;
+    cursor:pointer;
+    &:hover{
+        color: #000;
+      }
+  }
+
+  .right{
+    display: flex;
+   flex-wrap:wrap;
+   svg{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor:pointer;
+  }
+  .conn {
+    padding:  10px 20px;   
+   background-color: #2B7DE9 ;
+   border:none; 
+   border-radius: 5px;
+   margin-right: 15px;
+ 
+   color: white ;
+   outline:none;
+ 
+   
+ }
+  }
+
+}
+%shared-style {
+    -webk-webkit-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+    -moz-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+    box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+    border:none;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 100px;
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    input{
+        margin-top: 20px;
+        padding:15px;
+        border-radius: 50px;
+        border:1px solid #d1d1d1;
+        outline:none;
+        width: 100%;
+      &:hover{
+        @extend %shared-style;}
+
+
+     &:focus{
+        @extend %shared-style ;
+     }
+}
+label img{
+    float: right;
+    font-size: 20px;
+    margin-top: -35px;
+    margin-right: -15px;
+    position: relative;
+    cursor: pointer;
+    color: #5c5c5c;
+  }
+
+}
+.buttons{
+    margin-top: 40px;
+    button{
+        padding: 10px 20px;
+        background-color: #e0e0e0;
+        border:none; 
+        border-radius: 5px;
+        margin-right: 10px;
+        color: #4d4d4d;
+        outline:none;
+      }
+
+  }
+}
+
+
+
+.texte a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+/* Fin de la partie principale */

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+body {
+  font-family: "Arimo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Partie header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 10px 20px;
+}
+header .left {
+  display: flex;
+  flex-wrap: wrap;
+}
+header p {
+  margin-right: 10px;
+  color: #787878;
+  cursor: pointer;
+}
+header p:hover {
+  color: #000;
+}
+header .right {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .right svg {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+header .right .conn {
+  padding: 10px 20px;
+  background-color: #2B7DE9;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+  color: white;
+  outline: none;
+}
+
+.main .form-group input:focus, .main .form-group input:hover {
+  -webk-webkit-box-shadow: -8px -1px 19px -8px rgb(184, 184, 184);
+  box-shadow: -8px -1px 19px -8px rgb(184, 184, 184);
+  border: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.main .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.main .form-group input {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 50px;
+  border: 1px solid #d1d1d1;
+  outline: none;
+  width: 100%;
+}
+.main .form-group label img {
+  float: right;
+  font-size: 20px;
+  margin-top: -35px;
+  margin-right: -15px;
+  position: relative;
+  cursor: pointer;
+  color: #5c5c5c;
+}
+.main .buttons {
+  margin-top: 40px;
+}
+.main .buttons button {
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #4d4d4d;
+  outline: none;
+}
+
+.texte a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+/* Fin de la partie principale *//*# sourceMappingURL=style.css.map */
