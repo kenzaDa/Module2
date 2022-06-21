@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<body>
+
+<h2>Enregistrer vos courses</h2>
+
+<p>le bouton  <strong>submit</strong> enregistre les courses:</p>
+
+
+  <label for="ideas">Courses:</label><br>
+  <input type="text" id="ideas"  placeholder="add courses"><br>
+  
+  <input type="submit" onclick="myFunction()" id="Submit"  value="submit">
+  <div id='result'>
+    <ul></ul>
+  </div>
+
+<script>
+    function myFunction() {
+        let result = document.getElementById("result");
+        let submit = document.getElementById("submit");
+        let input = document.getElementById("ideas");
+         result.innerHTML += "<li>" + input.value + "</li>";
+            input.value="";
+    }
+    </script>
+
+</body>
+</html> 
+
+
+
