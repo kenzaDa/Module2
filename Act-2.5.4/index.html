@@ -62,13 +62,21 @@
 </div>
 </div>
 <script>
-    $(document).ready(
+   $( "img" ).on( "click", function() {
+    var img=$(this).clone()
+    img.appendTo($(".modal"));
+    $(".modal").css("display","block");
+    $(".global").css("display","none");
+    $( ".modal" ).css( {"height": "100vh" ,   "background-color": "black" ,  "display": "flex",    "justify-content": "center", "align-items": "center"});
 
-$(".gallery").on('click', function() {
-    $(".global").hide;
-    $(".modal").css("background-color","black");
-
-}))
+  
+    
+})
+$( ".modal" ).on( "click", function() {
+    $(".modal").css("display","none");
+    $(".global").css("display","flex");
+    $(".modal").empty();
+})
 </script>
 </body>
 </body>
