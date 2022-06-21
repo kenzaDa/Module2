@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="modal" ></div>
+    <div class="global">
+<div class="row">
+<div class="gallery">
+
+    <img src="img_5terre.jpg" >
+  
+
+</div>
+
+<div class="gallery">
+
+    <img src="img_forest.jpg" >
+
+</div>
+<div class="gallery">
+
+    <img src="img_lights.jpg" >
+</div>
+
+<div class="gallery">
+ 
+    <img src="img_mountains.jpg" >
+ 
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="gallery">
+   
+      <img src="img_5terre.jpg" >
+   
+   
+  </div>
+  
+  <div class="gallery">
+ 
+      <img src="img_forest.jpg" >
+   
+  </div>
+  
+  <div class="gallery">
+   
+      <img src="img_lights.jpg" >
+    
+  </div>
+  
+  <div class="gallery">
+    
+      <img src="img_mountains.jpg" >
+    
+  </div>
+</div>
+</div>
+<script>
+    $(document).ready(
+
+$(".gallery").on('click', function() {
+    $(".global").hide;
+    $(".modal").css("background-color","black");
+
+}))
+</script>
+</body>
+</body>
+</html>
